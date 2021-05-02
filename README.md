@@ -6,5 +6,5 @@ Auto Generate Credit Card Number and Validate
 
 # How to Use ?
 - run php extrap.php
-- input your bin, for example your bin is 511954. you can add 511954xxxxxxxxxx. X is when you want to random it
+- input your bin, for example your bin is 511954. you can add 511954xxxxxxxxxx. X will be replaced with random number
 - check the results in <b>validcc.txt</b> file
