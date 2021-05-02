@@ -1,7 +1,7 @@
 # CC Extrap 
-<br>
+</br>
 <img src="example.png" width="400" alt="Example">
-<br>
+</br>
 Auto Generate Credit Card Number and Validate
 # How to Use ?
 - run php extrap.php
