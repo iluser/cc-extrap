@@ -23,10 +23,9 @@ sleep(2);
 echo $banner;
 sleep(2);
 
-echo "input BIN (ex: 01234567890xxx8x): ";
+echo "BIN (ex: 01234567890xxx8x) : ";
 $a = trim(fgets(STDIN));
-
-$nomor = 1;
+echo "\n";
 while(1){
 
     $cvv = rand(111, 999);
@@ -54,9 +53,9 @@ while(1){
     $response = json_decode($exe);
     
     if($response->error != null){
-        echo "\e[31m[-] ".$card."|".$month."/".$year."|".$cvv." -> Invalid\n";
+        echo "\e[31m[INVALID] \e[00m".$card."|".$month."/".$year."|".$cvv."\n";
     }else{
-        echo "\e[92m[+] ".$card."|".$month."/".$year."|".$cvv." -> Valid\n";
+        echo "\e[92m[VALID] \e[00m".$card."|".$month."/".$year."|".$cvv."\n";
         $o = fopen("validcc.txt", 'a');
         fwrite($o, $card."|".$month."/".$year."|".$cvv."\n");
         fclose($o);
