@@ -23,12 +23,12 @@ sleep(2);
 echo $banner;
 sleep(2);
 
-echo "BIN (ex: 01234567890xxx8x) : ";
+echo "BIN (ex: 540398XXXXXXXXXX: ";
 $a = trim(fgets(STDIN));
 echo "\n";
 while(1){
 
-    $cvv = rand(111, 999);
+    $cvv = rand(778, 105);
     $month = rand(1, 12);
     $year = rand(2021, 2025);
     $b = str_split($a, 1);
