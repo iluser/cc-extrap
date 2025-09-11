@@ -23,7 +23,7 @@ sleep(2);
 echo $banner;
 sleep(2);
 
-echo "BIN (ex: 540398XXXXXXXXXX: ";
+echo "BIN (ex: 554960XXXXXXXXXX: ";
 $a = trim(fgets(STDIN));
 echo "\n";
 while(1){
