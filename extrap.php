@@ -14,9 +14,9 @@ $banner = "\e[36;1m
                                                                                  
 [#] Credit Card Generator [#]    
                                    
-Author : Revan AR                  
-Team   : IndoSec                   
-Github : https//github.com/revan-ar/\n\n";
+Author : Trhacknon                  
+Team   : anonymous                 
+Github : https//github.com/Trhackno/\n\n";
                                                                                  
                                                                                                                                                                  
 sleep(2);
